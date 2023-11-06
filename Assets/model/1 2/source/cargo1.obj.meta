@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: f29feed6d897af445978a6c31b2e77a4
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Obj_lp_Obj_lpMat
+    second: {fileID: 2100000, guid: ec5191778f703404fad34103d68ee389, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: box_lp_box_lpMat
+    second: {fileID: 2100000, guid: ffc3fa70d92d8e245aa76a65313aa020, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: building_lp_building_lpMat
+    second: {fileID: 2100000, guid: 84d36db0200b5004597f45a65bbc88e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crane_details1_lp_crane_details1_lpMat
+    second: {fileID: 2100000, guid: f57b3a298fc1e7e49b522b64f1583fcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crane_details2_lp_crane_details2_lpMat
+    second: {fileID: 2100000, guid: 469fafa0146279e45a3305e13f028441, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crane_details3_lp_crane_details3_lpMat
+    second: {fileID: 2100000, guid: d49cbc996c20a554393f0a01e572e5b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crane_lp_crane_lpMat
+    second: {fileID: 2100000, guid: 1f00edbea25c5f047b5c622e8187da72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deckhouse_lp_deckhouse_lpMat
+    second: {fileID: 2100000, guid: d620d2d27db680a419a98bf801f3af54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: details1_lp_details1_lpMat
+    second: {fileID: 2100000, guid: c4a69456f32dbc14c9a676b81ce2846e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: details2_lp_details2_lpMat
+    second: {fileID: 2100000, guid: 698d09eea45a8a249922fc89dfa1dd9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: details3_lp_details3_lpMat
+    second: {fileID: 2100000, guid: 7897d55b813632340a05b7a313997146, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doors_details_lp_doors_details_lpMat
+    second: {fileID: 2100000, guid: cd9d968202cf7cd4e8a2a9b1e380a4e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doors_lp_doors_lpMat
+    second: {fileID: 2100000, guid: 60dac6a864928f44f94cf142cd02024c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: extension_lp_extension_lpMat
+    second: {fileID: 2100000, guid: 4b100d696d60dfb40b8d352e9caf736e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main_lp_main_lpMat
+    second: {fileID: 2100000, guid: edebf57aa868c5d4bb4f6e022d98040d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipe_details_lp_pipe_details_lpMat
+    second: {fileID: 2100000, guid: edd8d1d0d7075b14bb5e2596c1e79528, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipe_lp_pipe_lpMat
+    second: {fileID: 2100000, guid: c458cb0d96fadd443854528570766735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: platforms_lp_platforms_lpMat
+    second: {fileID: 2100000, guid: 71ff2bc0fc8202c45858bb6ecf573dc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: railings1_lp_railings1_lpMat
+    second: {fileID: 2100000, guid: dbf82a971834286468d01ef5aa2bf82f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: railings2_lp_railings2_lpMat
+    second: {fileID: 2100000, guid: c71f73177aa63934d807b8494b9b2b56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shield_lp_shield_lpMat
+    second: {fileID: 2100000, guid: 07b473206fcc03c428dabd44d5331e7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stairs_details_lp_stairs_details_lpMat
+    second: {fileID: 2100000, guid: fee063566147fff4db7e1aa03a92ca53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stairs_lp_stairs_lpMat
+    second: {fileID: 2100000, guid: 8dab35c033a1f7944bfefc5b60e754b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windows1_lp_windows1_lpMat
+    second: {fileID: 2100000, guid: a37a530b498d5b04f8559ef86de0a887, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windows2_lp_windows2_lpMat
+    second: {fileID: 2100000, guid: 7348d2bfd17d95944b9c79e8be391fad, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
