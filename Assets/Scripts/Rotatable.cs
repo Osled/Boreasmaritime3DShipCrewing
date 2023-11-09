@@ -11,8 +11,11 @@ public class Rotatable : MonoBehaviour
 	[SerializeField] private bool inverted;
 	private Vector2 rotation;
 	private bool rotateAllowed;
+	public bool Allowed = true;
 	private void Awake() 
 	{
+
+         Allowed = true;
 		cam = Camera.main.transform;
 		pressed.Enable();
 		axis.Enable();
@@ -24,7 +27,7 @@ public class Rotatable : MonoBehaviour
 	private IEnumerator Rotate()
 	{
 		rotateAllowed = true;
-		while(rotateAllowed)
+		while(rotateAllowed &&Allowed)
 		{
 			// apply rotation
 			rotation *= speed;

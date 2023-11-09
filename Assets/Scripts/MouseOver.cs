@@ -1,23 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MouseOver : MonoBehaviour
 {
     public Color startColor;    
     public Color mouseoverColor;
+    public Color SelectColor;
    public bool mouseover = false;
+    public GameObject mainship;
+   
+    public GameObject Menu;
 
 
     private void OnMouseEnter()
     {
         mouseover = true;
-        this.GetComponent<Renderer>().material.color = mouseoverColor;
+        if( Menu.activeSelf==false)
+        {
+            this.GetComponent<Renderer>().material.color = mouseoverColor;
+        }
+        
+
+    }
+    private void OnMouseDown()
+    {
+        Menu.gameObject.GetComponent<activemenu>().change = false;
+        Menu.SetActive(true);
+        this.GetComponent<Renderer>().material.color = SelectColor;
+        mainship.gameObject.GetComponent<Rotatable>().Allowed = false;
+
+
     }
 
-    private void OnMouseExit()
+    public void OnMouseExit()
     {
         mouseover = false;
-        this.GetComponent<Renderer>().material.color= startColor;
+        if(Menu.gameObject.GetComponent<activemenu>().change) { this.GetComponent<Renderer>().material.color = startColor; }
+       
     }
 }
